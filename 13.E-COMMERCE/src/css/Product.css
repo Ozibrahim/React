@@ -1,0 +1,37 @@
+.image{
+    width: 180px;
+    height: 240px;
+}
+.card{
+    width: 200px;
+    height: 470px;
+    box-shadow: 1px 4px 3px lightgrey;
+    border-radius: 10px;
+    margin: 15px;
+}
+.product-text-title{
+    text-align: center;
+    height: 100px;
+}
+.product-text-price{
+    text-align: center;
+    
+}
+.card:hover{
+    box-shadow: 1px 4px 3px rgba(62, 57, 57, 0.356);
+    transition: all 0.2;
+    cursor: pointer;
+}
+
+.product-btn{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.product-btn:hover{
+    cursor: pointer;
+    background-color: darkgray;
+    
+}
